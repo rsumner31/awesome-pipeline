@@ -31,31 +31,27 @@ Pipeline frameworks & libraries
 * [Dockerflow](https://github.com/googlegenomics/dockerflow) - Workflow runner that uses Dataflow to run a series of tasks in Docker.
 * [Doit](http://pydoit.org/) - Task management & automation tool.
 * [Drake](https://github.com/Factual/drake) - Robust DSL akin to Make, implemented in Clojure.
-* [Drake R package](https://github.com/ropensci/drake) - Reproducibility and high-performance computing with an easy R-focused interface. Unrelated to [Factual's Drake](https://github.com/factual/drake).
+* [Drake (R package)](https://github.com/wlandau-lilly/drake) - R-focused reproducibility and scalable high-performance computing with an easy interface.
 * [Dray](https://github.com/CenturyLinkLabs/dray) - An engine for managing the execution of container-based workflows. 
-* [Fission Workflows](https://github.com/fission/fission-workflows) - A fast, lightweight workflow engine for serverless/FaaS functions.
 * [Flex](https://github.com/druths/flex/) - Language agnostic framework for building flexible data science pipelines (Python/Shell/Gnuplot).
 * [Flowr](https://github.com/sahilseth/flowr) - Robust and efficient workflows using a simple language agnostic approach (R package).
-* [Gc3pie](https://github.com/uzh/gc3pie) - Python libraries and tools for running applications on diverse Grids and clusters.
 * [Gwf](https://github.com/mailund/gwf) - Make-like utility for submitting workflows via qsub.
 * [Hive](https://github.com/Ensembl/ensembl-hive) - System for creating and running pipelines on a distributed compute resource.
 * [Joblib](https://pythonhosted.org/joblib/index.html) - Set of tools to provide lightweight pipelining in Python.
 * [Jug](https://jug.readthedocs.io) - A task Based parallelization framework for Python.
 * [Ketrew](https://github.com/hammerlab/ketrew) - Embedded DSL in the OCAML language alongside a client-server management application. 
-* [Kiba ETL](http://www.kiba-etl.org) - A data processing & ETL framework for Ruby.
 * [Kronos](https://github.com/jtaghiyar/kronos) - Workflow assembler for cancer genome analytics and informatics.
 * [Loom](https://github.com/StanfordBioinformatics/loom) - Tool for running bioinformatics workflows locally or in the cloud.
 * [Longbow](http://www.hecbiosim.ac.uk/longbow) - Job proxying tool for biomolecular simulations.
 * [Luigi](https://github.com/spotify/luigi) - Python module that helps you build complex pipelines of batch jobs.
 * [Makeflow](http://ccl.cse.nd.edu/software/makeflow/) - Workflow engine for executing large complex workflows on clusters.
 * [Mario](https://github.com/intentmedia/mario) - Scala library for defining data pipelines.
-* [MD Studio](https://github.com/MD-Studio/MDStudio) - Microservice based workflow engine. 
 * [Mistral](https://github.com/openstack/mistral) - Python based workflow engine by the Open Stack project.
 * [Moa](https://github.com/mfiers/Moa) - Lightweight workflows in bioinformatics.
 * [Nextflow](http://www.nextflow.io) - Flow-based computational toolkit for reproducibile and scalable bioinformatics pipelines.
 * [NiPype](https://github.com/nipy/nipype) - Workflows and interfaces for neuroimaging packages.
 * [OpenGE](https://github.com/adaptivegenome/openge) - Accelerated framework for manipulating and interpreting high-throughput sequencing data.
-* [Pachyderm](https://www.pachyderm.io/) - Distributed and reproducible data pipelining and data management, built on the container ecosystem.
+* [Pachyderm](https://www.pachyderm.io/pps.html) - A containerized, version-controlled data lake.
 * [PipEngine](https://github.com/fstrozzi/bioruby-pipengine) Ruby based launcher for complex biological pipelines.
 * [Pinball](https://github.com/pinterest/pinball) - Python based workflow engine by Pinterest.
 * [PyFlow](https://github.com/Illumina/pyflow) - Lightweight parallel task engine.
@@ -67,7 +63,6 @@ Pipeline frameworks & libraries
 * [Qdo](https://bitbucket.org/berkeleylab/qdo) - Lightweight high-throughput queuing system for workflows with many small tasks to perform.
 * [Qsubsec](https://github.com/alastair-droop/qsubsec) - Simple tokenised template system for SGE.
 * [Rabix](https://github.com/rabix/rabix) - Python-based workflow toolkit based on the Common Workflow Language and Docker.
-* [Reflow](https://github.com/grailbio/reflow) - Language and runtime for distributed, incremental data processing in the cloud.
 * [Remake](https://github.com/richfitz/remake) - Make-like declarative workflows in R.
 * [Rmake](http://physiology.med.cornell.edu/faculty/mason/lab/r-make/) - Wrapper for the creation of Makefiles, enabling massive parallelization.
 * [Rubra](https://github.com/bjpop/rubra) - Pipeline system for bioinformatics workflows.
@@ -78,6 +73,7 @@ Pipeline frameworks & libraries
 * [SciPipe](http://scipipe.org) - Library for writing Scientific Workflows in Go.
 * [Scoop](https://github.com/soravux/scoop/) - Scalable Concurrent Operations in Python.
 * [Snakemake](https://bitbucket.org/johanneskoester/snakemake/wiki/Home) - Tool for running and managing bioinformatics pipelines.
+* [SoS](http://vatlab.github.io/SOS/) - Readable, interactive, cross-platform and cross-language data science workflow system.
 * [Spiff](https://github.com/knipknap/SpiffWorkflow) - Based on the Workflow Patterns initiative and implemented in Python.
 * [Stpipe](http://ssb.stsci.edu/doc/jwst_dev/jwst_lib.stpipe.doc/html/) - File processing pipelines as a Python library.
 * [Sundial](https://github.com/gilt/sundial) - Jobsystem on AWS ECS or AWS Batch managing dependencies and scheduling.
@@ -93,9 +89,7 @@ Workflow platforms
 * [Apache Iravata](https://airavata.apache.org/) - Framework for executing and managing computational workflows on distributed computing resources.
 * [Arvados](http://arvados.org) - A container based workflow platform.
 * [Biokepler](http://www.biokepler.org) - Bioinformatics Scientific Workflow for Distributed Analysis of Large-Scale Biological Data.
-* [Butler](http://github.com/llevar/butler) - Framework for running scientific workflows on public and academic clouds.
 * [Chipster](http://chipster.csc.fi) - Open source platform for data analysis. 
-* [Clubber](https://bitbucket.org/bromberglab/clubber) - Cluster Load Balancer for Bioinformatics e-Resources.
 * [Digdag](https://www.digdag.io) - Workflow manager designed for simplicity, extensibility and collaboration.
 * [Fireworks](https://github.com/materialsproject/fireworks) - Centralized workflow server for dynamic workflows of high-throughput computations.
 * [Galaxy](https://usegalaxy.org) - Web-based platform for biomedical research.
@@ -136,18 +130,9 @@ Literate programming (aka interactive notebooks)
 * [Jupyter](https://jupyter.org/) Language-agnostic notebook literate programming environment.
 * [Pathomx](http://pathomx.org) - Interactive data workflows built on Python.
 * [R Notebooks](http://rmarkdown.rstudio.com/r_notebooks.html) - R Markdown notebook literate programming environment.
-* [SoS](https://vatlab.github.io/sos-docs/) - Readable, interactive, cross-platform and cross-language data science workflow system.
 * [Zeppelin](http://zeppelin-project.org/) - Web-based notebook that enables interactive data analytics.
 
-Extract, transform, load (ETL)
-------------------------------
 
-* [Kiba ETL](http://www.kiba-etl.org) - A data processing & ETL framework for Ruby.
-
-Application management workflows  
----------------------------------- 
-* [Argo](https://github.com/argoproj/argo) - Get stuff done with container-native workflows for Kubernetes.
-* [Deis](https://github.com/deis/deis) - Workflow system to create and manage applications on Kubernetes.
 
 Build automation tools
 ----------------------
@@ -163,7 +148,7 @@ Other projects
 ----------------
 * [HPC Grid Runner](http://hpcgridrunner.github.io/)
 * [noWorkflow](https://github.com/gems-uff/noworkflow) - Supporting infrastructure to run scientific experiments without a scientific workflow management system, and still get things like provenance.
-* [Reprozip](https://www.reprozip.org/) - Simplifies the process of creating reproducible experiments from command-line executions.
+* [Reprozip](https://github.com/ViDA-NYU/reprozip) - Simplifies the process of creating reproducible experiments from command-line executions.
 
 
 Related lists
